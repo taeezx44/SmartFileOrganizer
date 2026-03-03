@@ -27,10 +27,7 @@ jobs:
         run: pyinstaller --noconfirm --onedir --windowed --name "SmartFileOrganizer" main.py
 
       - name: Install Inno Setup
-        shell: powershell
-        run: |
-          curl -L -o innosetup.exe https://files.jrsoftware.org/is/6/innosetup-6.3.3.exe
-          Start-Process -FilePath innosetup.exe -Args "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART" -Wait
+        run: choco install innosetup --yes
 
       - name: Build Setup.exe with Inno Setup
         shell: powershell
