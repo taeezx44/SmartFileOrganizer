@@ -4,7 +4,6 @@ Entry point
 """
 import sys
 from PyQt6.QtWidgets import QApplication
-from PyQt6.QtCore import Qt
 from ui.main_window import MainWindow
 
 
@@ -13,7 +12,7 @@ def main():
     app.setApplicationName("Smart File Organizer Pro")
     app.setApplicationVersion("1.0.0")
     app.setOrganizationName("SmartOrganizer")
-    app.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps)
+    # AA_UseHighDpiPixmaps removed in PyQt6 6.4+ (enabled by default)
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
