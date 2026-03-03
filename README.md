@@ -2,8 +2,6 @@
 
 โปรแกรมจัดระเบียบไฟล์อัตโนมัติ พร้อม GUI สวยงาม Dark/Light Mode และ Windows Installer
 
-**สร้างโดย: กรวิชญ์ ชูเลื่อน (Korawit Chuluean)**
-
 ---
 
 ## ✨ Features
@@ -131,11 +129,3 @@ SmartFileOrganizer/
 ## 📄 License
 
 MIT License — free to use and modify.
-
----
-
-## 👨‍💻 Developer
-
-**กรวิชญ์ ชูเลื่อน (Korawit Chuluean)**
-- GitHub: https://github.com/taeezx44
-- Project Repository: https://github.com/taeezx44/SmartFileOrganizer
